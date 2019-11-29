@@ -30,6 +30,7 @@ public:
     //metodos.
     void ubicarse_en_la_arena(){}
     void moverse (){}
+    void atacar(){}
 
 };
 
