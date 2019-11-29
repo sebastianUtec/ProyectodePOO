@@ -15,6 +15,7 @@ protected:
     TipoEntero Tamanio_de_Ataque;
     Caracter Caracter_del_Objeto;
     string Nombre_del_Objeto;
+    TipoEntero danio;
 public:
     //Set-> puedes editar los datos de cada robot, con los set
     void setPosicion_X(TipoEntero posicion_en_x){this->Posicion_X=posicion_en_x;}
