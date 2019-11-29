@@ -13,5 +13,9 @@ CRobot::CRobot(TipoEntero Posicion_X, TipoEntero Posicion_Y, TipoEntero Vida_del
     this->Caracter_del_Objeto=Caracter_del_Objeto;
     this->Nombre_del_Objeto=Nombre_del_Objeto;
 }
-
+CRobot::atacar(CRobot& Robot1){
+    if (robot2.Posicion_X==robot1.Posicion_X and robot2.Posicion_Y==robot1.Posicion_Y) {
+        Robot1.vidas -= danio;
+    }
+}
 
